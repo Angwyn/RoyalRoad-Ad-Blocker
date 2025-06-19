@@ -7,3 +7,5 @@ Just a simple chrome-extension to block ads on RoyalRoad.com, using the latest M
 3. Goto chrome://extensions/ and enable developer mode
 4. Load Unpacked and select the extension folder
 5. Done!
+
+Note: If you use edge, opera, firefox just goto settings > extensions > manage extensions and do step-3.
