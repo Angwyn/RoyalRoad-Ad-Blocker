@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "RoyalRoad Premium",
+  "version": "1.0",
+  "description": "Premium Features FOR FREE??",
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+	  "css": ["style.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+	  "default_popup": "popup.html"
+  },
+  "permissions": []
+}

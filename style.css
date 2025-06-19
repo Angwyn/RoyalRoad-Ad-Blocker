@@ -1,0 +1,160 @@
+/* === RoyalRoad Modern Navbar Buttons Styling === */
+
+/* General body background and font reset */
+body {
+  background-color: #ffffff !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  color: #222 !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar container background */
+.page-header, .page-header-top, .page-header-menu {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #ddd !important;
+  box-shadow: none !important;
+}
+
+/* Logo adjustment */
+.page-logo a img.logo-default {
+  filter: brightness(0) invert(0.2);
+  max-height: 40px;
+}
+
+/* Style all nav links/buttons in main navbar (.hor-menu) and top right user menu (.top-menu) */
+.hor-menu ul.nav > li > a,
+.top-menu ul.nav.navbar-nav.pull-right > li > a {
+  background-color: #0078d4 !important;
+  color: white !important;
+  border-radius: 6px !important;
+  padding: 8px 16px !important;
+  font-weight: 600 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  text-decoration: none !important;
+  transition: background-color 0.3s ease !important;
+  border: none !important;
+  margin-left: 6px !important;
+  cursor: pointer;
+}
+
+/* Hover and active states */
+.hor-menu ul.nav > li > a:hover,
+.hor-menu ul.nav > li.open > a,
+.top-menu ul.nav.navbar-nav.pull-right > li > a:hover {
+  background-color: #005a9e !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+/* Dropdown arrow spacing */
+.hor-menu ul.nav > li > a > .fas.fa-chevron-down {
+  margin-left: 6px;
+  font-size: 0.8em;
+}
+
+/* Icon sizing */
+.hor-menu ul.nav > li > a > i.fa,
+.top-menu ul.nav.navbar-nav.pull-right > li > a > i.fa {
+  font-size: 1.1em;
+}
+
+/* Dropdown menu background */
+.hor-menu ul.nav > li > ul.dropdown-menu,
+.top-menu ul.nav.navbar-nav.pull-right > li > ul.dropdown-menu {
+  background-color: #f9f9f9 !important;
+  border: 1px solid #ddd !important;
+  border-radius: 6px !important;
+  padding: 8px 0 !important;
+  min-width: 200px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Dropdown menu links */
+.hor-menu ul.nav > li > ul.dropdown-menu > li > a,
+.top-menu ul.nav.navbar-nav.pull-right > li > ul.dropdown-menu > li > a {
+  color: #0078d4 !important;
+  padding: 8px 20px !important;
+  font-weight: 600 !important;
+  display: block !important;
+  text-decoration: none !important;
+  transition: background-color 0.2s ease !important;
+}
+
+/* Dropdown menu link hover */
+.hor-menu ul.nav > li > ul.dropdown-menu > li > a:hover,
+.top-menu ul.nav.navbar-nav.pull-right > li > ul.dropdown-menu > li > a:hover {
+  background-color: #0078d4 !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+/* Search bar adjustments */
+.search-form .input-group input.form-control {
+  border-radius: 6px 0 0 6px !important;
+  border: 1px solid #ddd !important;
+  padding: 8px 12px !important;
+  font-size: 1em !important;
+  color: #333 !important;
+}
+
+.search-form .input-group .btn.submit,
+.search-form .input-group .btn.btn-primary {
+  background-color: #0078d4 !important;
+  border-radius: 0 6px 6px 0 !important;
+  border: none !important;
+  color: white !important;
+  padding: 8px 12px !important;
+  cursor: pointer;
+  transition: background-color 0.3s ease !important;
+}
+
+.search-form .input-group .btn.submit:hover,
+.search-form .input-group .btn.btn-primary:hover {
+  background-color: #005a9e !important;
+}
+
+/* User avatar and username styling */
+.dropdown-user > a {
+  background-color: #0078d4 !important;
+  border-radius: 6px !important;
+  padding: 5px 12px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  color: white !important;
+  text-decoration: none !important;
+  cursor: pointer;
+  transition: background-color 0.3s ease !important;
+}
+
+.dropdown-user > a:hover {
+  background-color: #005a9e !important;
+}
+
+.dropdown-user > a img.img-circle {
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+}
+
+/* Logout button styling */
+.dropdown-menu-default form.inline button {
+  background-color: #d9534f !important;
+  border: none !important;
+  color: white !important;
+  padding: 8px 14px !important;
+  border-radius: 6px !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  transition: background-color 0.3s ease !important;
+}
+
+.dropdown-menu-default form.inline button:hover {
+  background-color: #c9302c !important;
+}
